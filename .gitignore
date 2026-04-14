@@ -1,0 +1,22 @@
+# Build files
+*.o
+*.ko
+*.mod.c
+*.mod.o
+modules.order
+Module.symvers
+
+# Binaries
+engine
+memhog
+cpu_stress
+
+# Logs
+logs/
+
+# Temp files
+*.save
+
+# Ignore root filesystems
+rootfs-alpha/
+rootfs-base/
