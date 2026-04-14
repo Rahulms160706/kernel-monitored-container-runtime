@@ -107,7 +107,7 @@ sudo dmesg | grep MONITOR
 - Signal handling (`SIGKILL`)
 - Producer–consumer synchronization
 
-### Important Note
+## Important Note
 
 Root filesystem directories (rootfs-alpha, rootfs-base) are environment-specific and may require setup using tools like debootstrap.
 
