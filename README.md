@@ -129,42 +129,58 @@ sudo rmmod monitor
 ## Demo Screenshots
 
 ### 1. Multi-container supervision
-*(Insert screenshot showing two containers running under the same supervisor)*
+
+![Multi-Container](images/multi_container.png)
+*Multiple container workloads running concurrently under the runtime.*
 
 ---
 
 ### 2. Metadata tracking
-*(Insert output of `engine ps` showing container details)*
+
+![Metadata](images/metadata.png)
+*Container workloads tracked through process metadata including PID, CPU usage, and memory usage.*
 
 ---
 
 ### 3. Bounded-buffer logging
-*(Insert log output showing container logs being captured)*
+
+![Logging](images/buffer_logging.png)
+*Container output captured and streamed through a logging pipeline, demonstrating producer–consumer behavior.*
 
 ---
 
 ### 4. CLI and IPC
-*(Insert screenshot showing CLI command and supervisor response)*
+
+![CLI IPC](images/CLI_IPC.png)
+*CLI commands sent to the supervisor and responses received via IPC.*
 
 ---
 
 ### 5. Soft-limit warning
-*(Insert `dmesg` output showing soft limit exceeded)*
+
+![Soft limit](images/soft_limit.png)
+*Kernel module detects when a container exceeds the soft memory limit and logs a warning.*
 
 ---
 
 ### 6. Hard-limit enforcement
-*(Insert `dmesg` output showing container killed after exceeding hard limit)*
+
+![Hard limit](images/hard_limit.png)
+*Kernel module enforces memory limits by terminating the process when the hard limit is exceeded.*
 
 ---
 
 ### 7. Scheduling experiment
-*(Insert output showing workload behavior differences)*
+
+![Scheduling](images/scheduling.png)
+*Different workloads running concurrently, demonstrating CPU scheduling behavior.*
 
 ---
 
 ### 8. Clean teardown
-*(Insert evidence showing no zombie processes after stopping containers)*
+
+![Teardown](images/clear.png)
+*All container workloads terminated with no remaining active processes.*
 
 ---
 
