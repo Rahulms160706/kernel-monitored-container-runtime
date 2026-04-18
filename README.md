@@ -131,6 +131,7 @@ sudo rmmod monitor
 ### 1. Multi-container supervision
 
 ![Multi-Container](images/multi_container.png)
+
 *Multiple container workloads running concurrently under the runtime.*
 
 ---
@@ -138,6 +139,7 @@ sudo rmmod monitor
 ### 2. Metadata tracking
 
 ![Metadata](images/metadata.png)
+
 *Container workloads tracked through process metadata including PID, CPU usage, and memory usage.*
 
 ---
@@ -145,6 +147,7 @@ sudo rmmod monitor
 ### 3. Bounded-buffer logging
 
 ![Logging](images/buffer_logging.png)
+
 *Container output captured and streamed through a logging pipeline, demonstrating producer–consumer behavior.*
 
 ---
@@ -152,6 +155,7 @@ sudo rmmod monitor
 ### 4. CLI and IPC
 
 ![CLI IPC](images/CLI_IPC.png)
+
 *CLI commands sent to the supervisor and responses received via IPC.*
 
 ---
@@ -159,6 +163,7 @@ sudo rmmod monitor
 ### 5. Soft-limit warning
 
 ![Soft limit](images/soft_limit.png)
+
 *Kernel module detects when a container exceeds the soft memory limit and logs a warning.*
 
 ---
@@ -166,6 +171,7 @@ sudo rmmod monitor
 ### 6. Hard-limit enforcement
 
 ![Hard limit](images/hard_limit.png)
+
 *Kernel module enforces memory limits by terminating the process when the hard limit is exceeded.*
 
 ---
@@ -173,6 +179,7 @@ sudo rmmod monitor
 ### 7. Scheduling experiment
 
 ![Scheduling](images/scheduling.png)
+
 *Different workloads running concurrently, demonstrating CPU scheduling behavior.*
 
 ---
@@ -180,6 +187,7 @@ sudo rmmod monitor
 ### 8. Clean teardown
 
 ![Teardown](images/clear.png)
+
 *All container workloads terminated with no remaining active processes.*
 
 ---
